@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>daining bar</title>
+  <link type="text/css" href="../../style.css" rel="stylesheet">
+  <script type="text/javascript" src="jquery-2.0.0.min.js"></script>
+  <script type="text/javascript" src="PictureSlides-jquery-2.0.js"></script>
+<script type="text/javascript">
+	jQuery.PictureSlides.set({
+		// Switches to decide what features to use
+		useFadingIn : true,
+		useFadingOut : true,
+		useFadeWhenNotSlideshow : true,
+		useFadeForSlideshow : true,
+		useDimBackgroundForSlideshow : true,
+		loopSlideshow : false,
+		usePreloading : true,
+		useAltAsTooltip : true,
+		useTextAsTooltip : false,
+
+		// Fading settings
+		fadeTime : 500, // Milliseconds	
+		timeForSlideInSlideshow : 2000, // Milliseconds
+
+		// At page load
+		startIndex : 1,	
+		startSlideShowFromBeginning : true,
+		startSlideshowAtLoad : false,
+		dimBackgroundAtLoad : false,
+
+		// Large images to use and thumbnail settings
+		//　ここに大きくして欲しい画像を入れ込む
+		images : [
+			{
+				image : "pictures/9.png", 
+				alt : "Picture 1",
+				text : "This is picture 1"
+			},
+			{                                  
+
+				image : "pictures/19.png", 
+				alt : "Picture 2",
+				text : "This is picture 2",
+			},
+			{                                  
+
+				image : "pictures/31.png", 
+				alt : "Picture 3",
+				text : "This is picture 3",
+			},
+			{   image : "pictures/28.png",
+				alt : "picture 4",
+				text : "This is picture 4"
+			} // NOTE! No comma after the last object
+			　//最後の{}は,で区切らない
+		],
+		thumbnailActivationEvent : "click",
+
+		// Classes of HTML elements to use
+		mainImageClass : "picture-slides-image", // Mandatory
+		imageLinkClass : "picture-slides-image-link",
+		fadeContainerClass : "picture-slides-fade-container",
+		imageTextContainerClass : "picture-slides-image-text",
+		previousLinkClass : "picture-slides-previous-image",
+		nextLinkClass : "picture-slides-next-image",
+		imageCounterClass : "picture-slides-image-counter",
+		startSlideShowClass : "picture-slides-start-slideshow",
+		stopSlideShowClass : "picture-slides-stop-slideshow",
+		thumbnailContainerClass: "picture-slides-thumbnails",
+		dimBackgroundOverlayClass : "picture-slides-dim-overlay"
+	});
+</script>
+  <![endif]-->
+
+</head>
+<body>
+
+<!-- ヘッダ -->
+<header>
+  <h1>dainingbar</h1>
+  <p>ダイニングバー比較<br>
+    八王子、立川編</p>
+</header>
+
+<!--ナビゲーション -->
+<nav>
+  <div class="menu">
+  <ul>
+    <li>
+      <a href="../../index.html">Home</a>
+    </li>
+    <li>
+      <a href="#">店舗一覧</a>
+    	<ul>
+	          <li><a href="funky.html">
+	            FUNKY原田
+	          </a></li>
+	          <li><a href="buga.html">
+	            ブーガルーカフェ
+	          </a></li>
+	          <li><a href="gaburi.html">
+	            モモ焼きBARガブリエール</a>
+	          </li>
+	          <li><a href="motown.html">
+	           MOTOWN</a>
+	          </li>
+	          <li><a href="roki.html">
+	            ロキダイニング</a>
+	          </li>
+	          <li><a href="seed.html">
+	            SEED</a>
+	          </li>
+	          <li><a href="hub.html">
+			  	  HUB</a>
+			   </li>
+			   <li><a href="muchacafe.html">
+			  	  ムチャカフェ</a>
+			  	</li>
+	        </ul>
+
+    </li>
+	
+   <li>
+      <a href="#">ランキング</a>
+	      <ul>
+			<li><a href="../ranking/kakaku.html">
+				コストパフォーマンス
+				</a>
+			</li>
+		  	<li><a href="../ranking/umai.html">
+		  	  	美味しさ</a>
+		  	</li>
+			<li><a href="../ranking/basyo.html">
+		  	  	場所</a>
+		  	</li>
+			<li><a href="../ranking/hunniki.html">
+		  	  	雰囲気</a>
+		  	</li>
+		  	 <li><a href="../ranking/ux.html">
+		  	  	UX</a>
+		  	</li>
+	  	        </ul>
+	      </li>
+	  	  
+    <li>
+      <a href="#">条件で選ぶ</a>
+        <ul>
+	  	  	  	  	          <li><a href="../joken/huniki.html">
+	  	  	  	雰囲気で選ぶ
+	  	  	  	          </a></li>
+
+	  	  	  	  	         <li><a href="../joken/ryori.html">
+							 	  	  	  	  	            料理で選ぶ</a>
+	  	  	  	  	          </li>
+
+	  	  	  	  	          <li><a href="../joken/ninzu.html">
+	  	  	  	  	           人数でえらぶ</a>
+	  	  	  	  	          </li>
+							  
+	  	        </ul>
+    </li>
+
+  </div>
+</nav>
+
+
+
+<!-- メインコンテンツ -->
+<article id="content" class="articlecontent">
+  <h2>FUNKY原田</h2>
+  <font size="5">☆店舗情報☆</font>
+  <br>
+  <font size="4">
+  	ジャンル：串焼き、居酒屋、焼き鳥<br>
+	TEL・予約： 050-5869-5087（予約専用番号）<br>
+				024-522-5371（お問い合わせ番号）<br>
+	住所：東京都立川市錦町1-5-24 町田ビル 1F<br>
+	交通手段：立川駅南口「たま館」先。「まぜそば かぐら」手前。<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;徒歩5分<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;立川駅から346m<br>
+ 	営業時間：17:00~24:00　夜10時以降入店可<br>
+	定休日：なし<br>
+	サービス料・チャージ：300円<br>
+  </font>
+	<br>
+	<br>
+	<font size="5">☆店舗評価☆</font>
+	<br>
+		<img src="bar/funky-graph.png" width="548" height="364" alt="外観" border="2">
+	<br>
+	<!--   jquery plugin   -->
+	<br>
+	<br>
+	<font size="5">☆画像一覧☆</font>
+   		<div class="picture-slides-container">
+	<div class="picture-slides-fade-container">
+		<a class="picture-slides-image-link"><img class="picture-slides-image" src="pictures/9.png" width="500px" height="400px"alt="This is picture " /></a>
+	</div>
+
+	<div class="picture-slides-image-text">画像一覧</div>
+
+	<div class="navigation-controls">
+		<span class="picture-slides-previous-image">Previous</span>
+		<span class="picture-slides-image-counter"></span>
+		<span class="picture-slides-next-image">Next</span>
+
+		<span class="picture-slides-start-slideshow">Start slideshow</span>
+		<span class="picture-slides-stop-slideshow">Stop slideshow</span>
+	</div>
+	<div class="picture-slides-thumbnails">
+		<span><a href="pictures/9.png"><img src="thumbnails/9.jpg" width="100px" height="100px"alt="" /></a></span>
+		<span><a href="pictures/19.png"><img src="thumbnails/19.jpg" width="100px" height="100px"alt="" /></a></span>
+		<span><a href="pictures/31.png"><img src="thumbnails/31.jpg" width="100px" height="100px"alt="" /></a></span>
+		<span><a href="pictures/28.png"><img src="thumbnails/28.jpg" width="100px" height="100px"alt="" /></a></span>
+	</div>
+</div>
+<!--   ここまで -->
+		<img src="bar/IMG_7317.JPG" width="448" height="264" alt="外観" border="2">
+	<br>
+派手なネオンです。まさにファンキー！！
+	<br>
+		<img src="bar/IMG_7314.JPG" width="448" height="264" alt="外観" border="2">
+	<br>
+おしゃれなロゴ看板にオープンな外観！
+	<br>
+		<img src="bar/IMG_7313.JPG" width="448" height="264" alt="外観" border="2">
+	<br>
+	<br>
+<font size="5">☆所在地☆</font>
+  <br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m20!1m8!1m3!1d202.5123025692585!2d139.41733088343375!3d35.696773410265735!3m2!1i1024!2i768!4f13.1!4m9!1i0!3e6!4m0!4m5!1s0x6018e164a1e48a8f%3A0x8a85cc83a3840855!2z44CSMTkwLTAwMjIg5p2x5Lqs6YO956uL5bed5biC6Yym55S677yR5LiB55uu77yV4oiS77yS77yUIOeri-W3nSDjg5XjgqHjg7Pjgq3jg7zljp_nlLA!3m2!1d35.696802!2d139.417351!5e0!3m2!1sja!2sjp!4v1421302347047" width="600" height="450" frameborder="0" style="border:0"></iframe><br>
+
+  
+
+    
+    
+  </dl>
+</article>
+
+<aside>
+  <section>
+    <h3>
+      Link
+    </h3>
+    <ul>
+      <li><a href="http://www.teu.ac.jp/" target="_blank">東京工科大学</a></li>
+    </ul>
+  </section>
+</aside>
+
+<!-- フッタ -->
+<footer>
+  <p>Copyright&copy; 2014 Kyohei Fugane</p>
+</footer>
+
+</body>
+</html>

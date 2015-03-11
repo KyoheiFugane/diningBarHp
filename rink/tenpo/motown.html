@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>daining bar</title>
+  <link type="text/css" href="../../style.css" rel="stylesheet">
+  <script type="text/javascript" src="jquery-2.0.0.min.js"></script>
+  <script type="text/javascript" src="PictureSlides-jquery-2.0.js"></script>
+<script type="text/javascript">
+	jQuery.PictureSlides.set({
+		// Switches to decide what features to use
+		useFadingIn : true,
+		useFadingOut : true,
+		useFadeWhenNotSlideshow : true,
+		useFadeForSlideshow : true,
+		useDimBackgroundForSlideshow : true,
+		loopSlideshow : false,
+		usePreloading : true,
+		useAltAsTooltip : true,
+		useTextAsTooltip : false,
+
+		// Fading settings
+		fadeTime : 500, // Milliseconds	
+		timeForSlideInSlideshow : 2000, // Milliseconds
+
+		// At page load
+		startIndex : 1,	
+		startSlideShowFromBeginning : true,
+		startSlideshowAtLoad : false,
+		dimBackgroundAtLoad : false,
+
+		// Large images to use and thumbnail settings
+		//　ここに大きくして欲しい画像を入れ込む
+		images : [
+			{
+				image : "pictures/139.png", 
+				alt : "Picture 1",
+				text : "This is picture 1"
+			},
+			{                                  
+
+				image : "pictures/146.png", 
+				alt : "Picture 2",
+				text : "This is picture 2",
+			},
+			{                                  
+
+				image : "pictures/154.png", 
+				alt : "Picture 3",
+				text : "This is picture 3",
+			},
+			{   image : "pictures/140.png",
+				alt : "picture 4",
+				text : "This is picture 4"
+			} // NOTE! No comma after the last object
+			　//最後の{}は,で区切らない
+		],
+		thumbnailActivationEvent : "click",
+
+		// Classes of HTML elements to use
+		mainImageClass : "picture-slides-image", // Mandatory
+		imageLinkClass : "picture-slides-image-link",
+		fadeContainerClass : "picture-slides-fade-container",
+		imageTextContainerClass : "picture-slides-image-text",
+		previousLinkClass : "picture-slides-previous-image",
+		nextLinkClass : "picture-slides-next-image",
+		imageCounterClass : "picture-slides-image-counter",
+		startSlideShowClass : "picture-slides-start-slideshow",
+		stopSlideShowClass : "picture-slides-stop-slideshow",
+		thumbnailContainerClass: "picture-slides-thumbnails",
+		dimBackgroundOverlayClass : "picture-slides-dim-overlay"
+	});
+</script>
+  <![endif]-->
+
+</head>
+<body>
+
+<!-- ヘッダ -->
+<header>
+  <h1>dainingbar</h1>
+  <p>ダイニングバー比較<br>
+    八王子、立川編</p>
+</header>
+
+<!--ナビゲーション -->
+<nav>
+  <div class="menu">
+  <ul>
+    <li>
+      <a href="../../index.html">Home</a>
+    </li>
+    <li>
+      <a href="#">店舗一覧</a>
+    	<ul>
+	          <li><a href="funky.html">
+	            FUNKY原田
+	          </a></li>
+	          <li><a href="buga.html">
+	            ブーガルーカフェ
+	          </a></li>
+	          <li><a href="gaburi.html">
+	            モモ焼きBARガブリエール</a>
+	          </li>
+	          <li><a href="motown.html">
+	           MOTOWN</a>
+	          </li>
+	          <li><a href="roki.html">
+	            ロキダイニング</a>
+	          </li>
+	          <li><a href="seed.html">
+	            SEED</a>
+	          </li>
+	          <li><a href="hub.html">
+			  	  HUB</a>
+			   </li>
+			   <li><a href="muchacafe.html">
+			  	  ムチャカフェ</a>
+			  	</li>
+	        </ul>
+
+    </li>
+	
+   <li>
+      <a href="#">ランキング</a>
+	      <ul>
+			<li><a href="../ranking/kakaku.html">
+				コストパフォーマンス
+				</a>
+			</li>
+		  	<li><a href="../ranking/umai.html">
+		  	  	美味しさ</a>
+		  	</li>
+			<li><a href="../ranking/basyo.html">
+		  	  	場所</a>
+		  	</li>
+			<li><a href="../ranking/hunniki.html">
+		  	  	雰囲気</a>
+		  	</li>
+		  	 <li><a href="../ranking/ux.html">
+		  	  	UX</a>
+		  	</li>
+	  	        </ul>
+	      </li>
+	  	  
+    <li>
+      <a href="#">条件で選ぶ</a>
+        <ul>
+	  	  	  	  	          <li><a href="../joken/huniki.html">
+	  	  	  	雰囲気で選ぶ
+	  	  	  	          </a></li>
+
+	  	  	  	  	         <li><a href="../joken/ryori.html">
+							 	  	  	  	  	            料理で選ぶ</a>
+	  	  	  	  	          </li>
+
+	  	  	  	  	          <li><a href="../joken/ninzu.html">
+	  	  	  	  	           人数でえらぶ</a>
+	  	  	  	  	          </li>
+							  
+	  	        </ul>
+    </li>
+
+  </div>
+</nav>
+
+
+<!-- メインコンテンツ -->
+<article id="content" class="articlecontent">
+  <h2>MOTOWN</h2>
+  <font size="5">☆店舗情報☆</font>
+  <br>
+  <font size="4">
+  	ジャンル：カジノ、アメリカン,サラダバー<br>
+	TEL・予約：050-58415453
+	住所：東京都立川市錦町1-5-24 町田ビル 1F<br>
+	交通手段：京王八王子から徒歩3分<br>
+ 	営業時間：◆様々な人数に応じて、完全個室・完全貸切可能です！<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2名様～15名様、20名様～80名様、40名様～120名様、<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;お気軽にお問い合わせください◆<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月　11：30～17：00　火～木 11:30～翌1：00<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;金・土・祝前日　11：30～翌3：00　日 17:00～翌1:00<br>
+	定休日：年中無休（月はランチのみ営業<br>
+	サービス料・チャージ：0円<br>
+  </font>
+	<br>
+	<br>
+	<font size="5">☆店舗評価☆</font>
+	<br>
+		<img src="bar/motown-graph.png" width="548" height="364" alt="外観" border="2">
+	<br>
+	<!--   jquery plugin   -->
+	<br>
+	<br>
+	<font size="5">☆画像一覧☆</font>
+   		<div class="picture-slides-container">
+	<div class="picture-slides-fade-container">
+		<a class="picture-slides-image-link"><img class="picture-slides-image" src="pictures/9.png" width="500px" height="400px"alt="This is picture " /></a>
+	</div>
+
+	<div class="picture-slides-image-text">画像一覧</div>
+
+	<div class="navigation-controls">
+		<span class="picture-slides-previous-image">Previous</span>
+		<span class="picture-slides-image-counter"></span>
+		<span class="picture-slides-next-image">Next</span>
+
+		<span class="picture-slides-start-slideshow">Start slideshow</span>
+		<span class="picture-slides-stop-slideshow">Stop slideshow</span>
+	</div>
+	<div class="picture-slides-thumbnails">
+		<span><a href="pictures/9.png"><img src="thumbnails/139.jpg" width="100px" height="100px"alt="" /></a></span>
+		<span><a href="pictures/19.png"><img src="thumbnails/146.jpg" width="100px" height="100px"alt="" /></a></span>
+		<span><a href="pictures/31.png"><img src="thumbnails/154.jpg" width="100px" height="100px"alt="" /></a></span>
+		<span><a href="pictures/28.png"><img src="thumbnails/140.jpg" width="100px" height="100px"alt="" /></a></span>
+	</div>
+</div>
+<!--   ここまで -->
+		<img src="bar/IMG_7408.JPG" width="448" height="264" alt="外観" border="2">
+	<br>
+メニューを頼むことでたべれるサラダバー！種類豊富です！
+	<br>
+		<img src="bar/IMG_7413.JPG" width="448" height="264" alt="外観" border="2">
+	<br>
+アメリカンなハンバーガー！４人で一つで十分なサイズです。
+	<br>
+		<img src="bar/IMG_7414.JPG" width="448" height="264" alt="外観" border="2">
+	<br>
+	テーブルとカウンターがあり広々した内観です。
+	<br>
+	<br>
+<font size="5">☆所在地☆</font>
+  <br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.749334572193!2d139.34325899999996!3d35.658547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191dde42f7ada1%3A0xf55ca908db1e3ae1!2z44Oi44O844K_44Km44OzIE1PVE9XTiDlhavnjovlrZDlupc!5e0!3m2!1sja!2sjp!4v1421302928562" width="600" height="450" frameborder="0" style="border:0"></iframe>
+<br>
+  
+
+    
+    
+  </dl>
+</article>
+
+<aside>
+  <section>
+    <h3>
+      Link
+    </h3>
+    <ul>
+      <li><a href="http://www.teu.ac.jp/" target="_blank">東京工科大学</a></li>
+    </ul>
+  </section>
+</aside>
+
+<!-- フッタ -->
+<footer>
+  <p>Copyright&copy; 2014 Kyohei Fugane</p>
+</footer>
+
+</body>
+</html>
